@@ -1,0 +1,3 @@
+/home/sonu/mine-projects/slicer_v1/build/CMakeFiles/openslicer.dir
+/home/sonu/mine-projects/slicer_v1/build/CMakeFiles/edit_cache.dir
+/home/sonu/mine-projects/slicer_v1/build/CMakeFiles/rebuild_cache.dir
