@@ -81,12 +81,12 @@ clean: CMakeFiles/openslicer.dir/clean
 CMakeFiles/openslicer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sonu/mine-projects/slicer_v1/build/CMakeFiles --progress-num=1,2,3 "Built target openslicer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sonu/mine-projects/slicer_v1/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target openslicer"
 .PHONY : CMakeFiles/openslicer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/openslicer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sonu/mine-projects/slicer_v1/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sonu/mine-projects/slicer_v1/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/openslicer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sonu/mine-projects/slicer_v1/build/CMakeFiles 0
 .PHONY : CMakeFiles/openslicer.dir/rule

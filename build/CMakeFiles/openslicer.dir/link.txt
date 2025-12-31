@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/openslicer.dir/app/main.cpp.o CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.o -o openslicer  /usr/lib/x86_64-linux-gnu/libgmpxx.so /usr/lib/x86_64-linux-gnu/libmpfr.so /usr/lib/x86_64-linux-gnu/libgmp.so 
+/usr/bin/c++ CMakeFiles/openslicer.dir/app/main.cpp.o CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.o CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o -o openslicer  /usr/lib/x86_64-linux-gnu/libgmpxx.so /usr/lib/x86_64-linux-gnu/libmpfr.so /usr/lib/x86_64-linux-gnu/libgmp.so 

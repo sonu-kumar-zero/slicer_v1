@@ -14,6 +14,8 @@ include_directories(
 add_executable(openslicer
     app/main.cpp
     engine/mesh/Mesh.cpp
+    engine/slicing/Slicer.cpp
+    engine/slicing/SVGExporter.cpp
 )
 
 target_link_libraries(openslicer CGAL::CGAL)

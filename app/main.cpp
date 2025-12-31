@@ -1,5 +1,7 @@
 #include <iostream>
-#include "mesh/Mesh.h"
+#include "../engine/mesh/Mesh.h"
+#include "../engine/slicing/Slicer.h"
+#include "../engine/slicing/SVGExporter.h"
 
 int main(int argc, char **argv)
 {
@@ -24,6 +26,17 @@ int main(int argc, char **argv)
     std::cout << "Bounding box:\n";
     std::cout << "Min: (" << min.x() << ", " << min.y() << ", " << min.z() << ")\n";
     std::cout << "Max: (" << max.x() << ", " << max.y() << ", " << max.z() << ")\n";
+
+    Slicer slicer(0.2); // layer height 0.2mm
+    auto layers = slicer.sliceMesh(mesh);
+
+    for (size_t i = 0; i < layers.size(); ++i)
+    {
+        std::string file_name = "layer_" + std::to_string(i) + ".svg";
+        SVGExporter::exportLayer(layers[i], file_name);
+    }
+
+    std::cout << "SVG export done\n";
 
     return 0;
 }

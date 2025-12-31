@@ -97,22 +97,54 @@ CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonu/mine-projects/slicer_v1/engine/mesh/Mesh.cpp -o CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.s
 
+CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o: CMakeFiles/openslicer.dir/flags.make
+CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o: ../engine/slicing/Slicer.cpp
+CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o: CMakeFiles/openslicer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonu/mine-projects/slicer_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o -MF CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o.d -o CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o -c /home/sonu/mine-projects/slicer_v1/engine/slicing/Slicer.cpp
+
+CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonu/mine-projects/slicer_v1/engine/slicing/Slicer.cpp > CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.i
+
+CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonu/mine-projects/slicer_v1/engine/slicing/Slicer.cpp -o CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.s
+
+CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o: CMakeFiles/openslicer.dir/flags.make
+CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o: ../engine/slicing/SVGExporter.cpp
+CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o: CMakeFiles/openslicer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonu/mine-projects/slicer_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o -MF CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o.d -o CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o -c /home/sonu/mine-projects/slicer_v1/engine/slicing/SVGExporter.cpp
+
+CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonu/mine-projects/slicer_v1/engine/slicing/SVGExporter.cpp > CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.i
+
+CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonu/mine-projects/slicer_v1/engine/slicing/SVGExporter.cpp -o CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.s
+
 # Object files for target openslicer
 openslicer_OBJECTS = \
 "CMakeFiles/openslicer.dir/app/main.cpp.o" \
-"CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.o"
+"CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.o" \
+"CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o" \
+"CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o"
 
 # External object files for target openslicer
 openslicer_EXTERNAL_OBJECTS =
 
 openslicer: CMakeFiles/openslicer.dir/app/main.cpp.o
 openslicer: CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.o
+openslicer: CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o
+openslicer: CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o
 openslicer: CMakeFiles/openslicer.dir/build.make
 openslicer: /usr/lib/x86_64-linux-gnu/libgmpxx.so
 openslicer: /usr/lib/x86_64-linux-gnu/libmpfr.so
 openslicer: /usr/lib/x86_64-linux-gnu/libgmp.so
 openslicer: CMakeFiles/openslicer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sonu/mine-projects/slicer_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable openslicer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sonu/mine-projects/slicer_v1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable openslicer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openslicer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

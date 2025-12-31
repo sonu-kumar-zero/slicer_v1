@@ -177,6 +177,54 @@ engine/mesh/Mesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/engine/mesh/Mesh.cpp.s
 .PHONY : engine/mesh/Mesh.cpp.s
 
+engine/slicing/SVGExporter.o: engine/slicing/SVGExporter.cpp.o
+.PHONY : engine/slicing/SVGExporter.o
+
+# target to build an object file
+engine/slicing/SVGExporter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.o
+.PHONY : engine/slicing/SVGExporter.cpp.o
+
+engine/slicing/SVGExporter.i: engine/slicing/SVGExporter.cpp.i
+.PHONY : engine/slicing/SVGExporter.i
+
+# target to preprocess a source file
+engine/slicing/SVGExporter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.i
+.PHONY : engine/slicing/SVGExporter.cpp.i
+
+engine/slicing/SVGExporter.s: engine/slicing/SVGExporter.cpp.s
+.PHONY : engine/slicing/SVGExporter.s
+
+# target to generate assembly for a file
+engine/slicing/SVGExporter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/engine/slicing/SVGExporter.cpp.s
+.PHONY : engine/slicing/SVGExporter.cpp.s
+
+engine/slicing/Slicer.o: engine/slicing/Slicer.cpp.o
+.PHONY : engine/slicing/Slicer.o
+
+# target to build an object file
+engine/slicing/Slicer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.o
+.PHONY : engine/slicing/Slicer.cpp.o
+
+engine/slicing/Slicer.i: engine/slicing/Slicer.cpp.i
+.PHONY : engine/slicing/Slicer.i
+
+# target to preprocess a source file
+engine/slicing/Slicer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.i
+.PHONY : engine/slicing/Slicer.cpp.i
+
+engine/slicing/Slicer.s: engine/slicing/Slicer.cpp.s
+.PHONY : engine/slicing/Slicer.s
+
+# target to generate assembly for a file
+engine/slicing/Slicer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openslicer.dir/build.make CMakeFiles/openslicer.dir/engine/slicing/Slicer.cpp.s
+.PHONY : engine/slicing/Slicer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +240,12 @@ help:
 	@echo "... engine/mesh/Mesh.o"
 	@echo "... engine/mesh/Mesh.i"
 	@echo "... engine/mesh/Mesh.s"
+	@echo "... engine/slicing/SVGExporter.o"
+	@echo "... engine/slicing/SVGExporter.i"
+	@echo "... engine/slicing/SVGExporter.s"
+	@echo "... engine/slicing/Slicer.o"
+	@echo "... engine/slicing/Slicer.i"
+	@echo "... engine/slicing/Slicer.s"
 .PHONY : help
 
 
